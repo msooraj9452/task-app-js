@@ -107,7 +107,7 @@ let ids = 0;
       }
     });
     window.addEventListener('load', () => {
-      console.log('page is fully loaded');
+      console.log('Succesfully loaded');
       loadTasks();
     });
 
