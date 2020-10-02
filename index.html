@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,48 +21,48 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./icons/apple-icon-144x144.png">
-    <meta name="theme-color" content="white"/>  
-<meta name="apple-mobile-web-app-capable" content="yes">  
-<meta name="apple-mobile-web-app-status-bar-style" content="black"> 
-<meta name="apple-mobile-web-app-title" content="Task App"> 
-<meta name="msapplication-TileImage" content="./icons/apple-icon-144x144.png">  
-<meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="theme-color" content="white"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Task App">
+    <meta name="msapplication-TileImage" content="./icons/apple-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
 
     <link rel="icon" href="./icons/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="./style.css" />
     <link rel="manifest" href="./manifest.json">
-  </head>
+</head>
 <body>
-    <div class="phone">
-         <!--Todo Header-->
-            <div class="header">
-                <h2>JS Todo</h2>
-                <!-- <div class="removeText" onclick="clearAlltasks()">&#128465; Clean Checked Tasks</div> -->
-            </div>
-             <!--Todo Header Ends-->
+<div class="phone">
+    <!--Todo Header-->
+    <div class="header">
+        <h2>JS Todo</h2>
+        <!-- <div class="removeText" onclick="clearAlltasks()">&#128465; Clean Checked Tasks</div> -->
+    </div>
+    <!--Todo Header Ends-->
 
-            <!--Todo body-->
-            <div class="todo-body">
-                <ul id="todo-list">
-                    <li class="todo-item dummy" id="0" >
-                    <input type="checkbox" class="0"  onchange="completeTask(0)"/> <span class="itemi">Hey! What is your focus today?</span>
-                    <span class="close-icon" onclick="removeTask(0)">&#10006;</span>
-                    </li>
-                
-                </ul>
-            </div>
-           <!--Todo body Ends-->
+    <!--Todo body-->
+    <div class="todo-body">
+        <ul id="todo-list">
+            <li class="todo-item dummy" id="0" >
+                <input type="checkbox" class="0"  onchange="completeTask(0)"/> <span class="itemi">Hey! What is the task today? You want to focus on..</span>
+                <span class="close-icon" onclick="removeTask(0)">&#10006;</span>
+            </li>
 
-            <!--Todo input-->
-            <label class="todoInput" >
-            <input type="text" name="task" id="input" placeholder="Enter a task and Press + or enter ">
-            <span id="addBtn" class="add-icon" onclick="addTask()">&#10010;</span>
-            </label>
-             <!--Todo input Ends-->
-    
-</div>   
-<script src="./script.js"></script> 
+        </ul>
+    </div>
+    <!--Todo body Ends-->
+
+    <!--Todo input-->
+    <label class="todoInput" >
+        <input type="text" name="task" id="input" placeholder="Enter a task and Press + or enter ">
+        <span id="addBtn" class="add-icon" onclick="addTask()">&#10010;</span>
+    </label>
+    <!--Todo input Ends-->
+
+</div>
+<script src="./script.js"></script>
 
 </body>
 </html>
